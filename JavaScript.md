@@ -18,19 +18,19 @@
 		    "shoes": "cleats"
 	    };
    
- 객체의 이름에 공백이 있는 경우 대괄호 표기법 사용
+	 * 객체의 이름에 공백이 있는 경우 대괄호 표기법 사용
 
-	mydog["a hat"];
- 
- 대괄호 안에 변수 입력가능 하고 동적으로 수집 가능
+			mydog["a hat"];
 
-    var a = "a hat"	   
-    mydog[a];
-  
-  새로운 속성을 추가 삭제(delete) 변경 가능
- 
-    delete mydog["a hat"];
-    
-  객체에 속성이 있는지 확인하는 메서드   
-  
-    mydog.hasOwnProperty("a hat")
+	 * 대괄호 안에 변수 입력가능 하고 동적으로 수집 가능
+
+	   	   var a = "a hat"	   
+	    	   mydog[a];
+
+	 * 새로운 속성을 추가 삭제(delete) 변경 가능
+
+	    	delete mydog["a hat"];
+
+	 * 객체에 속성이 있는지 확인하는 메서드   
+
+	   	   mydog.hasOwnProperty("a hat")
