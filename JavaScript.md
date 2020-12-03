@@ -34,3 +34,8 @@
 	 * 객체에 속성이 있는지 확인하는 메서드   
 
 	   	   mydog.hasOwnProperty("a hat")
+* Math 클래스
+  * 0 ~ 1 사이의 난수 생성 = Math.random()
+  * 가장 가까운 정수로 내림 = Math.floor()  
+  * 0 ~ 9 사이의 정수 생성 = Math.floor(10*Math.random())
+  * x ~ y 사이의 정수 생성 = Math.floor((Math.random()*(y-x+1))+x)
