@@ -43,3 +43,15 @@
   * 가장 가까운 정수로 내림 = Math.floor()  
   * 0 ~ 9 사이의 정수 생성 = Math.floor(10*Math.random())
   * x ~ y 사이의 정수 생성 = Math.floor((Math.random()*(y-x+1))+x)
+* 비동기 Promise
+
+		const request = new Promise((resolve, reject) => {
+			if(조건) {
+				resolve(); //전송이 성공했을 경우
+			} else {
+				reject(); //실패 했을 경우
+			}
+		})
+
+		request.then(result => { }); //resolve가 실행된 후 실행
+		request.catch(error => { }); //reject가 실행된 후 실행 
