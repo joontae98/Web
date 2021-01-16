@@ -1,2 +1,2 @@
 # Web
-**Web** code
+**Web** code.
